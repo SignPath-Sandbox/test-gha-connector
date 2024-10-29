@@ -2,6 +2,7 @@ github-policies:
   branch_rulesets:
     - condition:
         rules:
-          - code_scanning
+          - require_pull_request:
+              min_required_approvals: 2
         allow_bypass_actors: false
         enforced_from: CURRENT_BUILD
