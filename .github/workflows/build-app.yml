@@ -12,9 +12,9 @@ env:
 
 jobs:
   build-and-sign:
-    permissions:
-      actions: read  # get run data
-      contents: read  # do checkout
+    #permissions:
+      #actions: read  # get run data
+      #contents: read  # do checkout
 
     runs-on: windows-latest
 
